@@ -85,54 +85,26 @@
  
 var keyMap = {
 	
-	// actually kreyDown dooesnt need the big char codes anymore, but the whole code of this mod is pretty ugly anyway
-	// gonna clear it up once orbital/navy is needed in it
+	// keyDown codes!
 	
 	9:onTab,
-	
-	100:onD,
 	68:onD,
-	
-	119:onW,
 	87:onW,
-	
-	115:onS,
 	83:onS,
-	
-	101:onE,
 	69:onE,
-	
 	82:onR,
-	114:onR,
-	
 	84:onT,
-	116:onT,
-	
 	70:onF,
-	102:onF,
-	
 	88:onX,
-	120:onX,
-	
 	67:onC,
-	99:onC,
-	
 	86:onV,
-	118:onV,
-	
-	113:{commands:5},	//q - Patrol
 	81:{commands:5}, //Q
 	89:{commands:-1},	//Y - Stop
-	
-	97:	{commands:1},	//a - Attack
 	65: {commands:1}, // A
-	
 	220: {general:"toggle_pole_lock"}, // ^ toggle camera pole lock
-	
 	79: {general: "requeue"},
 	
 	// very old, might be broken:
-	
 	
 	// 113:	{commands:0},	//Q - Move
 	// 97:	{commands:1},	//A - Attack
